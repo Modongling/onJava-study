@@ -1,7 +1,5 @@
 package com.dave.java.exceptions;
 
-import java.util.Arrays;
-
 public class DynamicFields {
     private Object[][] fields;
 

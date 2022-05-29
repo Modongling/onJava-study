@@ -5,7 +5,10 @@
 // Using class literals
 // {java reflection.pets.PetCreator}
 package com.dave.java.reflection.pets;
-import java.util.*;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class PetCreator extends Creator {
   // No try block needed.

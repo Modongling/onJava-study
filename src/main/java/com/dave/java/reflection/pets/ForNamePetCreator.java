@@ -3,7 +3,9 @@
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 package com.dave.java.reflection.pets;
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ForNamePetCreator extends Creator {
   private static List<Class<? extends Pet>> types =

@@ -4,10 +4,14 @@
 // Visit http://OnJava8.com for more book information.
 // Creates random Pets
 package com.dave.java.reflection.pets;
-import java.util.*;
-import java.util.function.*;
-import java.util.stream.*;
+
 import java.lang.reflect.InvocationTargetException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+import java.util.function.Supplier;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public abstract class Creator implements Supplier<Pet> {
   private Random rand = new Random(47);
