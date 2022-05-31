@@ -9,6 +9,10 @@ public class DataPoint {
         this.temperature = temperature;
     }
 
+    /**
+     * 支持formatted方法格式化文本块
+     * @return
+     */
     @Override
     public String toString() {
         return """

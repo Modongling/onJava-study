@@ -4,10 +4,12 @@
 // Visit http://OnJava8.com for more book information.
 // {java generics.coffee.CoffeeSupplier}
 package com.dave.java.generics.coffee;
-import java.util.*;
-import java.util.function.*;
-import java.util.stream.*;
+
 import java.lang.reflect.InvocationTargetException;
+import java.util.Iterator;
+import java.util.Random;
+import java.util.function.Supplier;
+import java.util.stream.Stream;
 
 public class CoffeeSupplier
 implements Supplier<Coffee>, Iterable<Coffee> {
